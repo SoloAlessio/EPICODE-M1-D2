@@ -7,6 +7,9 @@ body{
     background-color: #eaeded;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
 header{
     background: #222f3e;
     padding: 6px 24px;
@@ -28,6 +31,9 @@ header{
 header img{
     height: 36px;
 }
+
+
+
 .container{
     padding: 0 24px;
 }
@@ -40,6 +46,8 @@ header img{
     padding: 8px 0;
     font-size: 16px;
 }
+
+
 .container .Banner{
     width: 100%;
     background-image: url("/assets/images/bg-image.png");
@@ -58,6 +66,7 @@ header img{
     font-weight: 700;
 }
 
+
 .SlideContainer{
     background: #fff;
     padding: 16px;
@@ -72,27 +81,6 @@ header img{
     font-size: 14px;
     color: #017185;
 }
-.Slides{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 16px;
-}
-.Slides div:nth-child(1){
-    background-image: url(/assets/images/img_1.jpg);
-    background-size: cover;
-}
-.Slides div:nth-child(2){
-    background-image: url(/assets/images/img_1.jpg);
-    background-size: cover;
-}
-.Slides div:nth-child(3){
-    background-image: url(/assets/images/img_1.jpg);
-    background-size: cover;
-}
-.Slides div:nth-child(4){
-    background-image: url(/assets/images/img_1.jpg);
-    background-size: cover;
-}
 .SlideContainer .immagine{
     width: 25%;
     margin-right: 32px;
@@ -103,6 +91,19 @@ header img{
 .immagine:nth-child(4){
     margin-right: 0;
 }
+.Slides{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.Slides div{
+    background-image: url(/assets/images/img_1.jpg);
+    background-size: cover;
+}
+
+
+
+
 .Promo{
     width: 100%;
     margin-top: 24px;
@@ -116,6 +117,9 @@ header img{
     text-decoration: none;
     margin-left: 16px;
 }
+
+
+
 .BottomBar{
     margin-top: 24px;
     background: #354758;
@@ -127,8 +131,13 @@ header img{
     font-size: 14px;
     font-weight: 700;
 }
+
+
 footer{
     background: #222f3e;
     text-align: center;
     padding: 48px 0;
+}
+footer img{
+    width: 15%;
 }
